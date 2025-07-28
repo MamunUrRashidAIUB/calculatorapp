@@ -5,15 +5,19 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:gravity="center"
     tools:context=".MainActivity">
 
     <TableRow
         android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"/>
+
 
     <TableRow
         android:layout_width="match_parent"
-        android:layout_height="match_parent" >
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal">
 
         <Button
             android:id="@+id/button9"
@@ -42,7 +46,8 @@
 
     <TableRow
         android:layout_width="match_parent"
-        android:layout_height="match_parent" >
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal">
 
         <Button
             android:id="@+id/button13"
@@ -71,7 +76,8 @@
 
     <TableRow
         android:layout_width="match_parent"
-        android:layout_height="match_parent" >
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal">
 
         <Button
             android:id="@+id/button5"
@@ -100,7 +106,8 @@
 
     <TableRow
         android:layout_width="match_parent"
-        android:layout_height="match_parent" >
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal">
 
         <Button
             android:id="@+id/button"
